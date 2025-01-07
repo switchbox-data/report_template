@@ -1,0 +1,25 @@
+---
+title: "INDEX TEMPLATE"
+subtitle: ""
+date: 
+author:
+  - name: 
+    orcid: 
+    affiliations:
+      - Switchbox
+
+keywords:
+
+
+toc: true
+notebook-links: false
+reference-location: margin
+fig-cap: true
+fig-cap-location: margin
+tbl-cap-location: margin
+
+appendix-style: default
+citation-location: document
+citation:
+  container-title: Switchbox
+---
