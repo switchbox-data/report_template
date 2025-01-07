@@ -1,5 +1,3 @@
-# Publish to the parent folder-based path
-
 all: clean render
 
 # Delete all caches
