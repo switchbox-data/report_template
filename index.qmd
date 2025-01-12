@@ -10,6 +10,8 @@ author:
 
 keywords:
 
+bibliography: ../references.bib
+license: "CC BY-NC"
 
 toc: true
 notebook-links: false
