@@ -2,7 +2,7 @@ all: clean render
 
 # Delete all caches
 clean:
-  rm -rf .quarto docs/ *_files/ notebooks/*_files/ notebooks/*.html \
+  rm -rf .quarto docs/*_files/ notebooks/*_files/ notebooks/*.html \
          notebooks/*.ipynb notebooks/*.rmarkdown
 
 # Render quarto project
