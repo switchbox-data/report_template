@@ -9,11 +9,14 @@ clean:
 render:
   quarto render .
 
+today := `date +%Y%m%d`
+draft_name := "report_draft_" + today + ".docx"
 draft:
-  quarto render index.qmd --to docx --output report_draft.docx
+  quarto render index.qmd --to docx --output {{draft_name}}
 
+typeset_name := "report_" + today + ".icml"
 typeset:
-  quarto render index.qmd --to icml
+  quarto render index.qmd --to icml --output {{typeset_name}}
 
 publish:
   bash -c 'parent_folder=$(basename $(pwd)); pub_path="../../docs/$parent_folder"; \
