@@ -15,6 +15,6 @@ format:
     link-external-window: true
     theme:
       - ../.style/switchbox.scss
-      - styles/custom.css
+    include-in-header: ../.style/notebook-preview.html
     include-after-body: ../.style/switchbox.html
     fig-format: svg
