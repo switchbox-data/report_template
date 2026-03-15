@@ -17,6 +17,4 @@ format:
       - ../.style/switchbox.scss
       - styles/custom.css
     include-after-body: ../.style/switchbox.html
-
-    fig-dpi: 300
-    fig-format: png
+    fig-format: svg
